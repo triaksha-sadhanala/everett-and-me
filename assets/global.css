@@ -5,6 +5,7 @@
     --almond: #efdecd;
     --licorice: #1a1110;
     --celadon: #ace1af;
+    --celadon-dark: #166734;
     --french-gray: #bebfc5;
     --darker-almond: #d0bfae;
     --darkest-almond: #b2a393;
@@ -462,7 +463,7 @@ footer p {
     position: absolute;
     width: 6px;
     height: 100%;
-    background: var(--licorice);
+    background: var(--celadon-dark);
     z-index: 1;
     inset: 0 47.5% auto auto;
     animation: moveline 6s linear forwards;
@@ -484,7 +485,7 @@ footer p {
     border-radius: 50%;
     width: 36px;
     height: 36px;
-    background-color: var(--licorice);
+    background-color: var(--celadon-dark);
     display: flex;
     position: absolute;
     z-index: 10;
